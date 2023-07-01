@@ -1,0 +1,81 @@
+body{
+    background-color: #E0E7F1;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-weight: 700;
+}
+table{
+    border-spacing:20px;
+}
+img{
+    width:50px;
+    height: 50px;
+    margin-right: 10px;
+}
+p{
+    opacity: 0.6;
+    margin-right: 60px;
+    font-size: 15px;
+}
+th:last-child{
+    padding-right:20px;
+}
+th:first-child{
+    padding-left: 20px;
+}
+th{
+    text-align: left;
+}
+tbody tr{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 20px;
+}
+tbody{
+    gap: 20px;
+}
+span{
+    opacity: 0.4;
+}
+button{
+    background-color: #0074F1;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 3px 7px;
+    font-size: 15px;
+    cursor: pointer;
+}
+hr{
+    width: 16px;
+    border-top: dotted 5px #0074F1;
+    transform: rotate(90deg);
+    cursor: pointer;
+}
+.main{
+    background-color: white;
+    padding: 20px 50px;
+    margin: 40px 0;
+}
+.status hr{
+    width: 5px;
+    border-top: dotted 10px #5DA768;
+    border-right: 0px;
+    border-left: 0px;
+    display: inline;
+    margin-right: 5px;
+}
+.status hr,
+.status p{
+    display: inline-block;
+    vertical-align: middle;
+}
+.user{
+    display: flex;
+    align-items: center;
+    margin: 15px 200px 15px 15px;
+}
+.user p{
+    opacity: 1;
+    margin: 0;
+}
